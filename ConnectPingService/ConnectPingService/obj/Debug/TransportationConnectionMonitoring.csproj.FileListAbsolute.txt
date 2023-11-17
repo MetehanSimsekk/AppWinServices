@@ -1,0 +1,16 @@
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\bin\Debug\TransportationConnectionMonitoring.exe.config
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\bin\Debug\TransportationConnectionMonitoring.exe
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\bin\Debug\TransportationConnectionMonitoring.pdb
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\obj\Debug\TransportationConnectionMonitoring.ProjectInstaller.resources
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\obj\Debug\TransportationConnectionMonitoring.csproj.GenerateResource.cache
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\obj\Debug\TransportationConnectionMonitoring.csproj.CoreCompileInputs.cache
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\obj\Debug\TransportationConnectionMonitoring.exe
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\obj\Debug\TransportationConnectionMonitoring.pdb
+C:\Users\smskm\Documents\GitHub\AppWinServices\ConnectPingService\ConnectPingService\bin\Debug\TransportationConnectionMonitoring.exe.config
+C:\Users\smskm\Documents\GitHub\AppWinServices\ConnectPingService\ConnectPingService\bin\Debug\TransportationConnectionMonitoring.exe
+C:\Users\smskm\Documents\GitHub\AppWinServices\ConnectPingService\ConnectPingService\bin\Debug\TransportationConnectionMonitoring.pdb
+C:\Users\smskm\Documents\GitHub\AppWinServices\ConnectPingService\ConnectPingService\obj\Debug\TransportationConnectionMonitoring.ProjectInstaller.resources
+C:\Users\smskm\Documents\GitHub\AppWinServices\ConnectPingService\ConnectPingService\obj\Debug\TransportationConnectionMonitoring.csproj.GenerateResource.cache
+C:\Users\smskm\Documents\GitHub\AppWinServices\ConnectPingService\ConnectPingService\obj\Debug\TransportationConnectionMonitoring.csproj.CoreCompileInputs.cache
+C:\Users\smskm\Documents\GitHub\AppWinServices\ConnectPingService\ConnectPingService\obj\Debug\TransportationConnectionMonitoring.exe
+C:\Users\smskm\Documents\GitHub\AppWinServices\ConnectPingService\ConnectPingService\obj\Debug\TransportationConnectionMonitoring.pdb

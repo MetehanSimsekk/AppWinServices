@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKMListBinTableUpdateService", "BKMListBinTableUpdateService\BKMListBinTableUpdateService\BKMListBinTableUpdateService.csproj", "{82009CF1-5222-4113-BDB1-310BA6E49841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionPingService", "ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\ConnectionPingService.csproj", "{B29E7C27-C19C-48C2-B091-50F4055EAB34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportationConnectionMonitoring", "ConnectPingService\ConnectPingService\TransportationConnectionMonitoring.csproj", "{90A95B00-6C39-4C69-8E71-71117A749C22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClientService", "TcpClientService\TcpClientService\TcpClientService.csproj", "{6CEE1025-F5D5-418C-B414-C7F5E093102A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82009CF1-5222-4113-BDB1-310BA6E49841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82009CF1-5222-4113-BDB1-310BA6E49841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82009CF1-5222-4113-BDB1-310BA6E49841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82009CF1-5222-4113-BDB1-310BA6E49841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29E7C27-C19C-48C2-B091-50F4055EAB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29E7C27-C19C-48C2-B091-50F4055EAB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29E7C27-C19C-48C2-B091-50F4055EAB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29E7C27-C19C-48C2-B091-50F4055EAB34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A95B00-6C39-4C69-8E71-71117A749C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A95B00-6C39-4C69-8E71-71117A749C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A95B00-6C39-4C69-8E71-71117A749C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A95B00-6C39-4C69-8E71-71117A749C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CEE1025-F5D5-418C-B414-C7F5E093102A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEE1025-F5D5-418C-B414-C7F5E093102A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEE1025-F5D5-418C-B414-C7F5E093102A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEE1025-F5D5-418C-B414-C7F5E093102A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FE6BE66-A1A3-4A5C-9F83-2D7D0ABB107B}
+	EndGlobalSection
+EndGlobal

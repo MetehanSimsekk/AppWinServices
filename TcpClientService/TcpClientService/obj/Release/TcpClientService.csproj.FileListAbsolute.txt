@@ -1,0 +1,11 @@
+C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Release\TcpClientService.exe.config
+C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Release\TcpClientService.exe
+C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Release\TcpClientService.pdb
+C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Release\Serilog.dll
+C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Release\Serilog.xml
+C:\Users\smskm\source\repos\TcpClientService\TcpClientService\obj\Release\TcpClientService.ProjectInstaller.resources
+C:\Users\smskm\source\repos\TcpClientService\TcpClientService\obj\Release\TcpClientService.csproj.GenerateResource.cache
+C:\Users\smskm\source\repos\TcpClientService\TcpClientService\obj\Release\TcpClientService.csproj.CoreCompileInputs.cache
+C:\Users\smskm\source\repos\TcpClientService\TcpClientService\obj\Release\TcpClientService.csproj.CopyComplete
+C:\Users\smskm\source\repos\TcpClientService\TcpClientService\obj\Release\TcpClientService.exe
+C:\Users\smskm\source\repos\TcpClientService\TcpClientService\obj\Release\TcpClientService.pdb

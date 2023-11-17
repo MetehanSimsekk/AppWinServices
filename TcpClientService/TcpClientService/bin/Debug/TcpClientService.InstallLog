@@ -1,0 +1,724 @@
+﻿'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 hizmeti yükleniyor...
+Service1 hizmeti başarıyla yüklendi.
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 EventLog kaynağı kaldırılıyor.
+System.Diagnostics.EventLogInstaller yükleyicisinin kaldırılmasında özel durum oluştu.
+System.Security.SecurityException: İstenen kayıt defteri erişimine izin verilmiyor.
+Yükleme kaldırılırken özel durum oluştu. Bu özel durum yoksayılacak ve yükleme kaldırma devam edecek. Ancak yükleme kaldırıldıktan sonra uygulama tamamen kaldırılamamış olabilir.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 EventLog kaynağı kaldırılıyor.
+System.Diagnostics.EventLogInstaller yükleyicisinin kaldırılmasında özel durum oluştu.
+System.Security.SecurityException: İstenen kayıt defteri erişimine izin verilmiyor.
+Yükleme kaldırılırken özel durum oluştu. Bu özel durum yoksayılacak ve yükleme kaldırma devam edecek. Ancak yükleme kaldırıldıktan sonra uygulama tamamen kaldırılamamış olabilir.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 EventLog kaynağı kaldırılıyor.
+System.Diagnostics.EventLogInstaller yükleyicisinin kaldırılmasında özel durum oluştu.
+System.Security.SecurityException: İstenen kayıt defteri erişimine izin verilmiyor.
+Yükleme kaldırılırken özel durum oluştu. Bu özel durum yoksayılacak ve yükleme kaldırma devam edecek. Ancak yükleme kaldırıldıktan sonra uygulama tamamen kaldırılamamış olabilir.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 EventLog kaynağı kaldırılıyor.
+System.Diagnostics.EventLogInstaller yükleyicisinin kaldırılmasında özel durum oluştu.
+System.Security.SecurityException: İstenen kayıt defteri erişimine izin verilmiyor.
+Yükleme kaldırılırken özel durum oluştu. Bu özel durum yoksayılacak ve yükleme kaldırma devam edecek. Ancak yükleme kaldırıldıktan sonra uygulama tamamen kaldırılamamış olabilir.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 EventLog kaynağı kaldırılıyor.
+System.Diagnostics.EventLogInstaller yükleyicisinin kaldırılmasında özel durum oluştu.
+System.Security.SecurityException: İstenen kayıt defteri erişimine izin verilmiyor.
+Yükleme kaldırılırken özel durum oluştu. Bu özel durum yoksayılacak ve yükleme kaldırma devam edecek. Ancak yükleme kaldırıldıktan sonra uygulama tamamen kaldırılamamış olabilir.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 EventLog kaynağı kaldırılıyor.
+System.Diagnostics.EventLogInstaller yükleyicisinin kaldırılmasında özel durum oluştu.
+System.Security.SecurityException: İstenen kayıt defteri erişimine izin verilmiyor.
+Yükleme kaldırılırken özel durum oluştu. Bu özel durum yoksayılacak ve yükleme kaldırma devam edecek. Ancak yükleme kaldırıldıktan sonra uygulama tamamen kaldırılamamış olabilir.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 EventLog kaynağı kaldırılıyor.
+Service1 hizmeti sistemden kaldırılıyor...
+Service1 hizmeti sistemden başarıyla kaldırıldı.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 hizmeti yükleniyor...
+Service1 hizmeti başarıyla yüklendi.
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 EventLog kaynağı kaldırılıyor.
+Service1 hizmeti sistemden kaldırılıyor...
+Service1 hizmeti sistemden başarıyla kaldırıldı.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Service1 hizmeti başarıyla yüklendi.
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 EventLog kaynağı kaldırılıyor.
+Service1 hizmeti sistemden kaldırılıyor...
+Service1 hizmeti sistemden başarıyla kaldırıldı.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Service1 hizmeti başarıyla yüklendi.
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 EventLog kaynağı kaldırılıyor.
+Service1 hizmeti sistemden kaldırılıyor...
+Service1 hizmeti sistemden başarıyla kaldırıldı.
+Service1 hizmetini durdurma girişimi.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   localsystem = 
+Service1 hizmeti yükleniyor...
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   localsystem = 
+Service1 kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   localsystem = 
+Service1 hizmeti yükleniyor...
+Service1 hizmeti başarıyla yüklendi.
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   localsystem = 
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 EventLog kaynağı kaldırılıyor.
+Service1 hizmeti sistemden kaldırılıyor...
+Service1 hizmeti sistemden başarıyla kaldırıldı.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   localsystem = 
+Service1 hizmeti yükleniyor...
+Service1 hizmeti başarıyla yüklendi.
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   localsystem = 
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 EventLog kaynağı kaldırılıyor.
+Service1 hizmeti sistemden kaldırılıyor...
+Service1 hizmeti sistemden başarıyla kaldırıldı.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   localsystem = 
+Service1 hizmeti yükleniyor...
+Service1 hizmeti başarıyla yüklendi.
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   localsystem = 
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 EventLog kaynağı kaldırılıyor.
+Service1 hizmeti sistemden kaldırılıyor...
+Service1 hizmeti sistemden başarıyla kaldırıldı.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Service1 hizmeti başarıyla yüklendi.
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 EventLog kaynağı kaldırılıyor.
+Service1 hizmeti sistemden kaldırılıyor...
+Service1 hizmeti sistemden başarıyla kaldırıldı.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Service1 hizmeti başarıyla yüklendi.
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 EventLog kaynağı kaldırılıyor.
+Service1 hizmeti sistemden kaldırılıyor...
+Service1 hizmeti sistemden başarıyla kaldırıldı.
+Service1 hizmetini durdurma girişimi.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+Service1 hizmeti yükleniyor...
+Service1 hizmeti başarıyla yüklendi.
+Application günlüğünde Service1 EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService EventLog kaynağı kaldırılıyor.
+TcpClientWindowsService hizmeti sistemden kaldırılıyor...
+System.ServiceProcess.ServiceInstaller yükleyicisinin kaldırılmasında özel durum oluştu.
+System.ComponentModel.Win32Exception: Belirtilen hizmet, yüklü bir hizmet olarak yok
+Yükleme kaldırılırken özel durum oluştu. Bu özel durum yoksayılacak ve yükleme kaldırma devam edecek. Ancak yükleme kaldırıldıktan sonra uygulama tamamen kaldırılamamış olabilir.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService hizmeti yükleniyor...
+TcpClientWindowsService hizmeti başarıyla yüklendi.
+Application günlüğünde TcpClientWindowsService EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService EventLog kaynağı kaldırılıyor.
+TcpClientWindowsService hizmeti sistemden kaldırılıyor...
+TcpClientWindowsService hizmeti sistemden başarıyla kaldırıldı.
+TcpClientWindowsService hizmetini durdurma girişimi.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService EventLog kaynağı kaldırılıyor.
+Uyarı: TcpClientWindowsService kaynağı yerel makinede kayıtlı değil.
+TcpClientWindowsService hizmeti sistemden kaldırılıyor...
+System.ServiceProcess.ServiceInstaller yükleyicisinin kaldırılmasında özel durum oluştu.
+System.ComponentModel.Win32Exception: Belirtilen hizmet, yüklü bir hizmet olarak yok
+Yükleme kaldırılırken özel durum oluştu. Bu özel durum yoksayılacak ve yükleme kaldırma devam edecek. Ancak yükleme kaldırıldıktan sonra uygulama tamamen kaldırılamamış olabilir.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService EventLog kaynağı kaldırılıyor.
+Uyarı: TcpClientWindowsService kaynağı yerel makinede kayıtlı değil.
+TcpClientWindowsService hizmeti sistemden kaldırılıyor...
+System.ServiceProcess.ServiceInstaller yükleyicisinin kaldırılmasında özel durum oluştu.
+System.ComponentModel.Win32Exception: Belirtilen hizmet, yüklü bir hizmet olarak yok
+Yükleme kaldırılırken özel durum oluştu. Bu özel durum yoksayılacak ve yükleme kaldırma devam edecek. Ancak yükleme kaldırıldıktan sonra uygulama tamamen kaldırılamamış olabilir.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService hizmeti yükleniyor...
+TcpClientWindowsService hizmeti başarıyla yüklendi.
+Application günlüğünde TcpClientWindowsService EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService EventLog kaynağı kaldırılıyor.
+TcpClientWindowsService hizmeti sistemden kaldırılıyor...
+TcpClientWindowsService hizmeti sistemden başarıyla kaldırıldı.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService hizmeti yükleniyor...
+TcpClientWindowsService hizmeti başarıyla yüklendi.
+Application günlüğünde TcpClientWindowsService EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService EventLog kaynağı kaldırılıyor.
+TcpClientWindowsService hizmeti sistemden kaldırılıyor...
+TcpClientWindowsService hizmeti sistemden başarıyla kaldırıldı.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService hizmeti yükleniyor...
+TcpClientWindowsService hizmeti başarıyla yüklendi.
+Application günlüğünde TcpClientWindowsService EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService EventLog kaynağı kaldırılıyor.
+TcpClientWindowsService hizmeti sistemden kaldırılıyor...
+TcpClientWindowsService hizmeti sistemden başarıyla kaldırıldı.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService hizmeti yükleniyor...
+TcpClientWindowsService hizmeti başarıyla yüklendi.
+Application günlüğünde TcpClientWindowsService EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService EventLog kaynağı kaldırılıyor.
+TcpClientWindowsService hizmeti sistemden kaldırılıyor...
+TcpClientWindowsService hizmeti sistemden başarıyla kaldırıldı.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService hizmeti yükleniyor...
+TcpClientWindowsService hizmeti başarıyla yüklendi.
+Application günlüğünde TcpClientWindowsService EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+TcpClientWindowsService hizmeti yükleniyor...
+Application günlüğünde TcpClientWindowsService EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+TcpClientWindowsService kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService hizmeti yükleniyor...
+Application günlüğünde TcpClientWindowsService EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yüklemesi kaldırılıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService EventLog kaynağı kaldırılıyor.
+TcpClientWindowsService hizmeti sistemden kaldırılıyor...
+TcpClientWindowsService hizmeti sistemden başarıyla kaldırıldı.
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe
+TcpClientWindowsService hizmeti yükleniyor...
+TcpClientWindowsService hizmeti başarıyla yüklendi.
+Application günlüğünde TcpClientWindowsService EventLog kaynağı oluşturuluyor...
+'C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\TcpClientService\TcpClientService\bin\Debug\TcpClientService.exe

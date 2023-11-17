@@ -1,0 +1,50 @@
+﻿Installing assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.InstallLog
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe
+Uninstalling assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.InstallLog
+Uninstalling assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Uninstalling assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingService.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.

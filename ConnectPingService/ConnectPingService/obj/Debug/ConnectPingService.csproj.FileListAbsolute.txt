@@ -1,0 +1,9 @@
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\bin\Debug\ConnectPingService.exe.config
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\bin\Debug\ConnectPingService.exe
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\bin\Debug\ConnectPingService.pdb
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\obj\Debug\ConnectPingService.ProjectInstaller.resources
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\obj\Debug\ConnectPingService.csproj.GenerateResource.cache
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\obj\Debug\ConnectPingService.csproj.CoreCompileInputs.cache
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\obj\Debug\ConnectPingService.exe
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\obj\Debug\ConnectPingService.pdb
+C:\Users\smskm\source\repos\ConnectPingService\ConnectPingService\obj\Debug\ConnectPingService.csproj.AssemblyReference.cache

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKMListBinTableUpdateService", "BKMListBinTableUpdateService\BKMListBinTableUpdateService.csproj", "{82009CF1-5222-4113-BDB1-310BA6E49841}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82009CF1-5222-4113-BDB1-310BA6E49841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82009CF1-5222-4113-BDB1-310BA6E49841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82009CF1-5222-4113-BDB1-310BA6E49841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82009CF1-5222-4113-BDB1-310BA6E49841}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {949EB1FD-67D3-4483-AA2C-983371F51840}
+	EndGlobalSection
+EndGlobal

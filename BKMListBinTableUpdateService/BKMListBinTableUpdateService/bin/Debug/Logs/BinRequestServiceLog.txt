@@ -1,0 +1,83 @@
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 3:55:25 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 3:55:45 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 3:56:09 AM
+Servis Çalışıyor 11/17/2023 3:56:46 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 3:57:27 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:00:20 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:00:45 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:03:34 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:06:24 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:06:57 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:16:03 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:17:17 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:26:41 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:30:41 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:30:58 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:31:17 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:31:31 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:32:31 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:33:33 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:34:00 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:37:24 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:41:08 AM
+Hata oluştu: An error occurred while sending the request.
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:43:57 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:46:23 AM
+Hata oluştu: A task was canceled.
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:49:03 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:54:35 AM
+Hata oluştu: Cannot access a disposed object.
+Object name: 'System.Net.Http.StringContent'.
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:55:28 AM
+Hata oluştu: An error occurred while sending the request.
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 4:58:27 AM
+Hata oluştu: An error occurred while sending the request.
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 5:00:43 AM
+Hata oluştu: An error occurred while sending the request.
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 5:02:26 AM
+Hata oluştu: An error occurred while sending the request.
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 5:04:18 AM
+Hata oluştu: An error occurred while sending the request.
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 5:06:25 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 5:06:44 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 5:29:53 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 5:33:17 AM
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 5:34:38 AM
+Hata oluştu: An error occurred while sending the request.
+Local IP Adres : 192.168.1.105
+Servis Çalışıyor 11/17/2023 5:35:17 AM

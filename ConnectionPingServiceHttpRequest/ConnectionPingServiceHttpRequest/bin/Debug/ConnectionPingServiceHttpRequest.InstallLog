@@ -1,0 +1,73 @@
+﻿Installing assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.InstallLog
+Installing assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.InstallLog
+Installing service Service2...
+Creating EventLog source Service2 in log Application...
+Rolling back assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.InstallLog
+Restoring event log to previous state for source Service2.
+Installing assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.InstallLog
+Installing service Service2...
+Creating EventLog source Service2 in log Application...
+Rolling back assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.InstallLog
+Restoring event log to previous state for source Service2.
+Uninstalling assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.InstallLog
+Installing assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.InstallLog
+Installing service Service2...
+Creating EventLog source Service2 in log Application...
+Rolling back assembly 'C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.exe
+   logfile = C:\Users\smskm\source\repos\ConnectionPingServiceHttpRequest\ConnectionPingServiceHttpRequest\bin\Debug\ConnectionPingServiceHttpRequest.InstallLog
+Restoring event log to previous state for source Service2.

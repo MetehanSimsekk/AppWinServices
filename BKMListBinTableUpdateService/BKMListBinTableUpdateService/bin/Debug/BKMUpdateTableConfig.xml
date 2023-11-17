@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<smtpFromMail>metehans@apptech.co</smtpFromMail>
+	<smptPassword>swvmamkobuflqzir</smptPassword>
+	<smtpAddress>smtp.gmail.com</smtpAddress>
+	<smptPort>587</smptPort>
+	<toMail>metehans@apptech.co</toMail>
+	<ccMail>metehans@apptech.co</ccMail>
+	<endPoint>api/txn/BinManagement/BinManagement</endPoint>
+	<Interval>300000</Interval>
+	<firstProdServer>http://192.168.100.101</firstProdServer>
+	<secondProdServer>http://192.168.100.102</secondProdServer>
+	<folderPath>/Logs</folderPath>
+	<folderName>/Logs/BinRequestServiceLog.txt</folderName>
+	<port>44341</port>
+	<serverInfo>Test</serverInfo>
+</root>
