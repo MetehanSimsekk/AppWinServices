@@ -72,8 +72,6 @@ namespace TcpClientService
 
         private void TimerElapsed(object sender, ElapsedEventArgs e)
         {
-
-
             ConnectToServer(echoMessage);
         }
         public class SocketManager
@@ -89,81 +87,19 @@ namespace TcpClientService
         
         private async Task ConnectToServer(string message)
         {
+           
             try
             {
 
 
-
                 if (!(client != null && client.Client != null && client.Client.Connected))
                 {
-
-                    //client.Client.Bind(new IPEndPoint(IPAddress.Any, 1413));
-
-                    string endpointString = "[::ffff:192.168.113.2]:62063";
-
-                    // String'i ayrıştırma
-                    int startIndex = endpointString.IndexOf(":") + 1;
-                    int endIndex = endpointString.LastIndexOf("]");
-
-                    string ipAddressString = endpointString.Substring(0, endIndex + 1);
-                    string portString = endpointString.Substring(startIndex, endpointString.Length - startIndex);
-                    IPAddress ipAddress = IPAddress.Parse(ipAddressString);
-                     
-
-                    if (ipAddress.AddressFamily == System.Net.Sockets.AddressFamily.InterNetworkV6 &&
-                        ipAddress.IsIPv4MappedToIPv6)
-                    {
-                        long ipAddressAsLong = BitConverter.ToInt32(ipAddress.GetAddressBytes(), 12);
-                        try
-                        {
-                            if (!(client != null && client.Client != null && client.Client.Connected))
-                            {
-                                // Bağlantı yoksa bağlantı yap...
-                                int port = int.Parse("65065");
-                                IPEndPoint endpoint = new IPEndPoint(ipAddress, port);
-                                // Socket veya başka bir bağlantı nesnesine bu endpoint'i atayabilirsiniz
-                                SocketManager socketManager = new SocketManager();
-                                SocketManager socketManagerFromProject1 = new SocketManager();
-                                socketManagerFromProject1.MySocket = socketManager.MySocket;
-
-                                Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-                                
-                                if (socket.SocketType == SocketType.Stream)
-                                {
-                                    // Socket bir akış soketidir (TCP bağlantısı)
-                                    Console.WriteLine("Socket bir akış soketidir (TCP bağlantısı)");
-                                }
-                               
-                                socketManagerFromProject1.MySocket.Bind(endpoint);
-                            }
-                          
-
-
-
-
-                            //client.Client.LocalEndPoint = endpoint;
-
-                            client.Connect(serverAddress, serverPort);
-                            logger.Information("Bağlantı kuruluyor...");
-                            // endpoint'i kullan
-                        }
-                        catch (Exception ex)
-                        {
-                            var d = ex.Message;
-                        }
-                    }
+                    client.Client.Bind(new IPEndPoint(IPAddress.Any, 0));
+                    client.Connect(serverAddress, serverPort);
                 }
-
-
-                // Ayrıştırılmış bilgileri kullanarak EndPoint oluşturma
 
               
 
-                  
-
-
-            
-            
                 string messageToSend = message;                
                 logger.Information("Servera gönderilen "+ messageToSend + " mesaj: " + messageToSend);
 
@@ -186,7 +122,7 @@ namespace TcpClientService
                     logger.Information("Servera gönderilen -ECHO- yanıt: " + ex.Message);
                     retry++;
                     //if (retry >= maxRetryCount && String.IsNullOrEmpty(response) && ex.ErrorCode != 10022)
-                    if (retry >= maxRetryCount)
+                    if (retry >= maxRetryCount && String.IsNullOrEmpty(response))
                     {
                         logger.Information("Exception Tekrar değeri: " + retry);
                         logger.Information("Maksimum yeniden deneme sayısına ulaşıldı. Echo SignOn-SignOff işlemi tekrar başlatılıyor.");
@@ -197,19 +133,19 @@ namespace TcpClientService
                 }
                 if (message == echoMessage)
                 {
-                    logger.Information("Servera gönderilen -ECHO- yanıt: " + response);
+                    logger.Information("Serverdan dönen -ECHO- yanıt: " + response);
 
                 }
                 else if (message == signOffMessage)
                 {
-                    logger.Information("Servera gönderilen -SIGNOFF- yanıt: " + response);
+                    logger.Information("Serverdan dönen -SIGNOFF- yanıt: " + response);
 
                 }
                 else
                 {
-                    logger.Information("Servera gönderilen -SIGNON- yanıt: " + response);
+                    logger.Information("Serverdan dönen -SIGNON- yanıt: " + response);
                 }
-
+                client.Close();
 
             }
             catch (Win32Exception ex)
@@ -218,7 +154,7 @@ namespace TcpClientService
                 retry++;
                 logger.Information("Exception Tekrar değeri: " + retry);
                 //retry >= maxRetryCount && String.IsNullOrEmpty(response) && ex.ErrorCode != 10022
-                if (retry >= maxRetryCount)
+                if (retry >= maxRetryCount && String.IsNullOrEmpty(response))
                 {
                     logger.Information("Maksimum yeniden deneme sayısına ulaşıldı. Echo SignOn-SignOff işlemi tekrar başlatılıyor.");
                     ConnectToServer(signOffMessage);
@@ -233,18 +169,16 @@ namespace TcpClientService
         }
         public void PerformControlAction(string controlAction)
         {
-            // Kontrol isteğine göre belirli bir işlem gerçekleştir
+           
             if (controlAction == "start")
             {
-                // Servisi başlatma işlemleri burada gerçekleştirilir
-                // Örneğin: OnStart(null);
+                
             }
             else if (controlAction == "stop")
             {
-                // Servisi durdurma işlemleri burada gerçekleştirilir
-                // Örneğin: OnStop();
+              
             }
-            // Diğer kontrol isteklerine göre gereken işlemleri ekleyebilirsiniz
+            
         }
         protected override void OnStop()
         {

@@ -50,7 +50,7 @@ namespace BKMListBinTableUpdateService
         public void ReadExcelFile()
         {
 
-            string excelFilePath = @"C:\Users\smskm\Desktop\AppTech\BKM.xlsx";
+            string excelFilePath = @"C:\Users\smskm\Desktop\AppTech\BKM.xlsx"; //excel local file path
 
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
@@ -70,12 +70,7 @@ namespace BKMListBinTableUpdateService
                             Bin = worksheet.Cells[row, 4].Text.Substring(0, Convert.ToInt32(worksheet.Cells[row, 7].Text)), //worksheet.Cells[row, 7].Text) -->BinLength
                             CardBrand = worksheet.Cells[row, 12].Text,
                             CardType = worksheet.Cells[row, 15].Text,
-                            //OfflineStatus =0
-                            //OnlineStatus = 0
-                            //DelayedAuthStatus = 1
-                            //IsMbrInserted = 1
-                            //IsMbrStatusUpdated = 1
-                            //IsUpdateMbrDelayedAuthStt = 1
+                          
 
 
                         };
@@ -126,7 +121,7 @@ namespace BKMListBinTableUpdateService
         }
         public ConnectionPingModel GetConnectionPingInfo()
         {
-            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "BKMUpdateTableConfig.xml");
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "AppWinServicesInfo.xml");
             ConnectionPingModel connectionPingModel = new ConnectionPingModel();
 
             try
@@ -134,9 +129,11 @@ namespace BKMListBinTableUpdateService
                 XmlDocument doc = LoadXmlDocument(filePath);
                 if (doc != null)
                 {
-                    XmlNode root = doc.DocumentElement;
+                    XmlNodeList rootNodes = doc.SelectNodes("/roots/root/bkm");
+                    //XmlNode root = doc.DocumentElement;
 
-                    foreach (XmlNode node in root.ChildNodes)
+
+                    foreach (XmlNode node in rootNodes)
                     {
                         if (node.NodeType == XmlNodeType.Element)
                         {
@@ -145,47 +142,21 @@ namespace BKMListBinTableUpdateService
 
                             switch (elementName)
                             {
-                                case "ccMail":
-                                    string[] ccMails = elementValue.Split(',');
-                                    connectionPingModel.CCMail.AddRange(ccMails);
-                                    break;
-                                case "toMail":
-                                    connectionPingModel.ToMail = elementValue;
-                                    break;
                                 case "endPoint":
                                     connectionPingModel.EndPoint = elementValue;
                                     break;
                                 case "Interval":
                                     connectionPingModel.Interval = elementValue;
-                                    break;                               
+                                    break;
                                 case "folderName":
                                     connectionPingModel.FolderName = elementValue;
-                                    break;
-                                case "folderPathFirst":
-                                    connectionPingModel.FolderPathFirst = elementValue;
                                     break;
                                 case "port":
                                     connectionPingModel.Port = elementValue;
                                     break;
-                                case "folderPathSecond":
-                                    connectionPingModel.FolderPathSecond = elementValue;
-                                    break;
-                                case "smtpFromMail":
-                                    connectionPingModel.SmtpFromMail = elementValue;
-                                    break;
-                                case "smptPassword":
-                                    connectionPingModel.SmptPassword = elementValue;
-                                    break;
-                                case "smtpAddress":
-                                    connectionPingModel.SmtpAddress = elementValue;
-                                    break;
-                                case "smptPort":
-                                    connectionPingModel.SmptPort = int.Parse(elementValue);
-                                    break;
                                 case "serverInfo":
                                     connectionPingModel.ServerInfo = elementValue;
                                     break;
-
                             }
                         }
                     }
@@ -244,7 +215,7 @@ namespace BKMListBinTableUpdateService
             var mail = new MailMessage();
             mail.To.Add(_connectionPingModel.ToMail);
             mail.From = new MailAddress(_connectionPingModel.SmtpFromMail);
-            mail.Subject = "Transportation Connection Monitoring - " + _connectionPingModel.ServerInfo + "";
+            mail.Subject = "BKM - " + _connectionPingModel.ServerInfo + "";
             mail.BodyEncoding = Encoding.UTF8;
             try
             {
@@ -301,7 +272,7 @@ namespace BKMListBinTableUpdateService
                     client.Port = 587;
                     client.DeliveryMethod = SmtpDeliveryMethod.Network;
 
-                    //client.Send(mail);
+                    client.Send(mail);
                 }
             }
             catch (Exception ex)
@@ -361,8 +332,11 @@ namespace BKMListBinTableUpdateService
                 var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
                 string apiUrl = _httpClient.BaseAddress + _connectionPingModel.EndPoint;
 
-                string accessToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MDAxOTAxMTEsIkNsaWVudElkIjoiU0EiLCJJbnN0aXR1dGlvbklkIjoxMDIsIlNlc3Npb25JZCI6MTExMTExMTExMTE2NTAwMH0.PrHgHxoing4Z65UvUriInUDAVeSuu50Byy0fYs8iXOg"; // Bu kısmı kendi token'ınızla değiştirin
-                _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", accessToken);
+
+              
+               string accessToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MDAxOTAxMTEsIkNsaWVudElkIjoiU0EiLCJJbnN0aXR1dGlvbklkIjoxMDIsIlNlc3Npb25JZCI6MTExMTExMTExMTE2NTAwMH0.PrHgHxoing4Z65UvUriInUDAVeSuu50Byy0fYs8iXOg"; // Bu kısmı kendi token'ınızla değiştirin
+                
+                //_httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", accessToken);
 
 
 

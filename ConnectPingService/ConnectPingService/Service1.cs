@@ -21,39 +21,43 @@ namespace TransportationConnectionMonitoring
 {
     public partial class Service1 : ServiceBase
     {
-        Timer timer = new Timer();
 
-        private ConnectionPingModel _connectionPingModel;
+
+        Timer timer = new Timer();
+        #region privateFields
+        private List<ConnectionPingModel> _connectionPingModels = new List<ConnectionPingModel>();
+        private DateTime lastRequestTime;    
+        private static readonly object lockObject = new object();
         private string _localIp;
         private string _serverType;
+        #endregion
+
         public Service1()
         {
-            _localIp = GetLocalIPAddress();
-            _serverType = GetModeFromIpInfo(_localIp);
-            _connectionPingModel = GetConnectionPingInfo();
+
             InitializeComponent();
         }
         public void onDebug()
         {
             OnStart(null);
         }
-        static string GetLocalIPAddress()
+        static string Get_localIpAddress()
         {
-            string localIP = string.Empty;
+            string _localIp = string.Empty;
             try
             {
 
                 string hostName = Dns.GetHostName();
 
 
-                IPAddress[] localIPs = Dns.GetHostAddresses(hostName);
+                IPAddress[] _localIps = Dns.GetHostAddresses(hostName);
 
 
-                foreach (IPAddress ipAddress in localIPs)
+                foreach (IPAddress ipAddress in _localIps)
                 {
                     if (ipAddress.AddressFamily == AddressFamily.InterNetwork)
                     {
-                        localIP = ipAddress.ToString();
+                        _localIp = ipAddress.ToString();
                         break;
                     }
                 }
@@ -62,25 +66,26 @@ namespace TransportationConnectionMonitoring
             {
                 Console.WriteLine("IP Adresi alınamadı: " + ex.Message);
             }
-            return localIP;
+            return _localIp;
         }
         protected override void OnStart(string[] args)
         {
-            
-            GetConnectionPingInfo();
-            string localIP = GetLocalIPAddress();
-            FileWriter("Local IP Adres : " + localIP, "");
+
+            _connectionPingModels = GetConnectionPingInfo();
+            _localIp = Get_localIpAddress();
+             FileWriter("Local IP Adres Bilgisi : " + _localIp, "", "");
+            _serverType = GetModeFromIpInfo(_localIp);
             timer.Elapsed += new ElapsedEventHandler(onElapsedTime);
-            timer.Interval = Convert.ToDouble(_connectionPingModel.Interval);
+            timer.Interval = Convert.ToDouble(_connectionPingModels[0].Interval);
             timer.Enabled = true;
-            FileWriter("Servis Çalışmaya Başladı. Tarih: " + DateTime.Now, "IP : "+ _localIp + "");
+            FileWriter("Servis Çalışmaya Başladı. Tarih: " + DateTime.Now, "", "");
 
         }
 
         protected override void OnStop()
         {
-            FileWriter("Servis Durduruldu Süre:" + DateTime.Now.TimeOfDay.ToString(), "IP : " + _localIp + "");
-            SendEmail("Servis Durduruldu Süre:" + DateTime.Now.TimeOfDay.ToString(), "IP : " + _localIp + "");
+            FileWriter("Servis Durduruldu Süre:" + DateTime.Now.TimeOfDay.ToString(), "", "");
+            SendEmail("Servis Durduruldu Süre:" + DateTime.Now.TimeOfDay.ToString(), "", "");
 
         }
 
@@ -88,91 +93,243 @@ namespace TransportationConnectionMonitoring
         {
             try
             {
+                MoveFileBySize();
 
+                DetectServerStatus();
 
-
-                FirstProdServer();
-                SecondProdServer();
-
-
-                FileWriter("Servis Çalışmaya Devam Ediyor: Süre:" + DateTime.Now.TimeOfDay.ToString(), "IP : " + _localIp + "");
+                FileWriter("Servis Çalışmaya Devam Ediyor: Süre:" + DateTime.Now.TimeOfDay.ToString(), "", "");
             }
             catch (AggregateException ex)
             {
                 foreach (var innerException in ex.InnerExceptions)
                 {
-                    FileWriter("Servis Çalışırken Bir Hata Oluştu Hata:" + innerException.Message + "Süre: " + DateTime.Now.TimeOfDay.ToString(), "IP : " + _localIp + "");
-                    SendEmail("Servis Çalışırken Bir Hata Oluştu Hata:" + innerException.Message + "Süre: " + DateTime.Now.TimeOfDay.ToString(), "IP : " + _localIp + "");
+                    FileWriter("Servis Çalışırken Bir Hata Oluştu Hata:" + innerException.Message + "Süre: " + DateTime.Now.TimeOfDay.ToString(), "", "");
+
+                    SendEmail("Servis Çalışırken Bir Hata Oluştu Hata:" + innerException.Message + "Süre: " + DateTime.Now.TimeOfDay.ToString(), "", "");
 
                 }
             }
         }
+
+        public List<ConnectionPingModel> GetConnectionPingInfo()
+        {
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "AppWinServicesInfo.xml");
+
+            try
+            {
+                XmlDocument doc = LoadXmlDocument(filePath);
+                if (doc != null)
+                {
+                    XmlNodeList rootNodes = doc.SelectNodes("/roots/root");
+
+                    for (int i = 0; i < rootNodes.Count; i++)
+                    {
+                        XmlNode rootNode = rootNodes[i];
+                        ConnectionPingModel connectionPingModel = new ConnectionPingModel();
+
+                        // Mail bilgilerini sadece ilk root elemanına ekle
+                       
+                            XmlNode mailNode = doc.SelectSingleNode("/roots/mail");
+
+                            foreach (XmlNode mailChildNode in mailNode.ChildNodes)
+                            {
+                                if (mailChildNode.NodeType == XmlNodeType.Element)
+                                {
+                                    string mailElementName = mailChildNode.Name;
+                                    string mailElementValue = mailChildNode.InnerText;
+
+                                    switch (mailElementName)
+                                    {
+                                        case "smtpFromMail":
+                                            connectionPingModel.SmtpFromMail = mailElementValue;
+                                            break;
+                                        case "smptPassword":
+                                            connectionPingModel.SmptPassword = mailElementValue;
+                                            break;
+                                        case "smtpAddress":
+                                            connectionPingModel.SmtpAddress = mailElementValue;
+                                            break;
+                                        case "smptPort":
+                                            connectionPingModel.SmptPort = int.Parse(mailElementValue);
+                                            break;
+                                    case "ccMail":
+                                        string[] ccMails = mailElementValue.Split(',');
+                                        connectionPingModel.CCMail.AddRange(ccMails);
+                                        break;
+                                    case "toMail":
+                                        connectionPingModel.ToMail = mailElementValue;
+                                        break;
+                                }
+                                }
+                            }
+                        XmlNode timeNode = doc.SelectSingleNode("/roots/timeInfo");
+
+                        foreach (XmlNode timeChildNode in timeNode.ChildNodes)
+                        {
+                            if (timeChildNode.NodeType == XmlNodeType.Element)
+                            {
+                                string timeElementName = timeChildNode.Name;
+                                string timeElementValue = timeChildNode.InnerText;
+
+                                switch (timeElementName)
+                                {
+                                    case "Interval":
+                                        connectionPingModel.Interval = timeElementValue;
+                                        break; 
+                                    case "fileSize":
+                                        connectionPingModel.FileSize = int.Parse(timeElementValue);
+                                        break;
+                                    case "mailWaitTimeMinute":
+                                        connectionPingModel.mailWaitTimeMinute = int.Parse(timeElementValue);
+                                        break;
+                                }
+                            }
+                        }
+
+                        foreach (XmlNode node in rootNode.ChildNodes)
+                        {
+                            if (node.NodeType == XmlNodeType.Element)
+                            {
+                                string elementName = node.Name;
+                                string elementValue = node.InnerText;
+
+                                switch (elementName)
+                                {
+                                   
+                                    case "endPoint":
+                                        connectionPingModel.EndPoint = elementValue;
+                                        break;
+                                    case "Interval":
+                                        connectionPingModel.Interval = elementValue;
+                                        break;
+                                    case "prodServer":
+                                        connectionPingModel.ProdServer = elementValue;
+                                        break;                                  
+                                    case "applicationPoolName":
+                                        connectionPingModel.ApplicationPoolName = elementValue;
+                                        break;
+                                    case "port":
+                                        connectionPingModel.Port = elementValue;
+                                        break;
+                                    case "mailTitle":
+                                        connectionPingModel.MailTitle = elementValue;
+                                        break;
+                                    case "folderPath":
+                                        connectionPingModel.FolderPath = elementValue;
+                                        break;
+                                    case "logFileNameIpEnd":
+                                        connectionPingModel.LogFileNameIpEnd = elementValue;
+                                        break;
+                                }
+                            }
+                        }
+
+                        
+                        _connectionPingModels.Add(connectionPingModel);
+                    }
+                }
+            }
+           
+            catch (Exception ex)
+            {
+                FileWriter("Hata Oluştu : " + ex.Message, "", "");
+                SendEmail("Hata Oluştu : " + ex.Message + " <br>  Süre : " + DateTime.Now.TimeOfDay.ToString(), "", "");
+            }
+
+            return _connectionPingModels;
+        }
+
         private string GetModeFromIpInfo(string ipInfo)
         {
-            if (ipInfo.Contains(_connectionPingModel.FirstProdServer) || ipInfo.Contains(_connectionPingModel.SecondProdServer))
+            for (int i = 0; i < _connectionPingModels.Count - 1; i++)
             {
-                return "PROD";
+                if (ipInfo.Contains(_connectionPingModels[i].ProdServer))
+                {
+                    return "PROD";
+                }
             }
-            else
-            {
-                return "TEST";
-            }
+
+            return "TEST";
         }
-        private async Task FirstProdServer()
+
+        public async Task DetectServerStatus()
         {
+            try
+            {
+                foreach (var connectionPingModel in _connectionPingModels)
+                {
+                    if (connectionPingModel.ProdServer != null && connectionPingModel.EndPoint == null)
+                    {
+                        await CheckServerStatus(connectionPingModel.ProdServer);
+                    }
+                }
+                await SendHttpRequest();
+            }
+            catch (Exception ex)
+            {
 
+                FileWriter(ex.Message, "", "");
+            }
 
+        }
+        private async Task CheckServerStatus(string serverUrl)
+        {
             try
             {
                 using (HttpClient client = new HttpClient())
                 {
-                    HttpResponseMessage response = await client.GetAsync(_connectionPingModel.FirstProdServer);
+                    client.BaseAddress = new Uri(serverUrl);
+                    HttpResponseMessage response = await client.GetAsync(serverUrl);
 
                     if (response.IsSuccessStatusCode)
                     {
-                        FileWriter("Uygulama havuzu çalışıyor. IP Bilgisi : " + _connectionPingModel.FirstProdServer + " Süre : " + DateTime.Now, Regex.Replace(_connectionPingModel.FirstProdServer, "^(http|https)://", ""));
+                        FileWriter($"Uygulama havuzu çalışıyor. IP Bilgisi: {serverUrl} Süre: {DateTime.Now}", Regex.Replace(serverUrl, "^(http|https)://", ""), "");
+
                     }
                     else
                     {
-                        FileWriter("Uygulama havuzunda sorun oluştu. IP Bilgisi : " + _connectionPingModel.FirstProdServer + "Status Kodu : " + response.StatusCode + " Süre : " + DateTime.Now, Regex.Replace(_connectionPingModel.FirstProdServer, "^(http|https)://", ""));
+                        FileWriter($"Uygulama havuzunda sorun oluştu. IP Bilgisi: {serverUrl} Status Kodu: {response.StatusCode} Süre: {DateTime.Now}", Regex.Replace(serverUrl, "^(http|https)://", ""), "");
                     }
                 }
             }
             catch (HttpRequestException ex)
             {
-                FileWriter("Uygulama havuzu kapanmış olabilir. IP Bilgisi : " + _connectionPingModel.FirstProdServer + " Hata Mesajı : " + ex.Message + " Süre : " + DateTime.Now, Regex.Replace(_connectionPingModel.FirstProdServer, "^(http|https)://", ""));
-                SendEmail("Uygulama havuzu kapanmış olabilir. <br>  IP Bilgisi : " + _connectionPingModel.FirstProdServer + "<br> Hata Mesajı : " + ex.Message + "<br>  Süre : " + DateTime.Now, _connectionPingModel.FirstProdServer);
-
+                FileWriter($"Uygulama havuzu kapanmış olabilir. IP Bilgisi: {serverUrl} Hata Mesajı: {ex.Message} Süre: {DateTime.Now}", Regex.Replace(serverUrl, "^(http|https)://", ""), "");
+                SendEmail($"Uygulama havuzu kapanmış veya bağlantı kopmuş olabilir . <br> IP Bilgisi: {serverUrl}<br> Hata Mesajı: {ex.Message}<br> Süre: {DateTime.Now}", serverUrl, "");
             }
         }
-        private async Task SecondProdServer()
-        {
 
+        private async Task SendHttpRequest()
+        {
 
             try
             {
-                using (HttpClient client = new HttpClient())
+                using (HttpClient httpClient = new HttpClient())
                 {
-                    HttpResponseMessage response = await client.GetAsync(_connectionPingModel.SecondProdServer);
+                    BaseAddress(httpClient, _localIp);
+
+
+                    var response = await httpClient.GetAsync(_connectionPingModels[2].EndPoint);
 
                     if (response.IsSuccessStatusCode)
                     {
-                        FileWriter("Uygulama havuzu çalışıyor. IP Bilgisi : " + _connectionPingModel.SecondProdServer + " Süre : " + DateTime.Now, _connectionPingModel.SecondProdServer);
+
+                        var responseContent = await response.Content.ReadAsStringAsync();
+                        FileWriter("İstek başarıyla tamamlandı.URL: " + httpClient.BaseAddress + _connectionPingModels[2].EndPoint + " Yanıt: Status Kodu : " + response.StatusCode + " Content :" + responseContent + "Süre: " + DateTime.Now.TimeOfDay.ToString(), "", _connectionPingModels[2].EndPoint);
+
                     }
                     else
                     {
-                        FileWriter("Uygulama havuzunda sorun oluştu. IP Bilgisi : " + _connectionPingModel.SecondProdServer + "Status Kodu : " + response.StatusCode + " Süre : " + DateTime.Now, _connectionPingModel.SecondProdServer);
+                        FileWriter("İstek başarısız. Hata kodu: " + response.StatusCode +" "+ DateTime.Now.TimeOfDay.ToString(), "", _connectionPingModels[2].EndPoint);
+                        SendEmail("İstek başarısız. Hata kodu: " + response.StatusCode + " " + DateTime.Now.TimeOfDay.ToString(), "", _connectionPingModels[2].EndPoint);
                     }
                 }
             }
-            catch (HttpRequestException ex)
+            catch (Exception ex)
             {
-                FileWriter("Uygulama havuzu kapanmış olabilir. IP Bilgisi : " + _connectionPingModel.SecondProdServer + "Hata Mesajı : " + ex.Message + " Süre : " + DateTime.Now, _connectionPingModel.SecondProdServer);
-                SendEmail("Uygulama havuzu kapanmış olabilir.<br>  IP Bilgisi : " + _connectionPingModel.SecondProdServer + "<br> Hata Mesajı : " + ex.Message + "<br>  Süre : " + DateTime.Now, _connectionPingModel.SecondProdServer);
+                FileWriter("Hata oluştu: " + ex.InnerException.Message, " || " + ex.InnerException.InnerException.Message + "", _connectionPingModels[2].EndPoint);
+                SendEmail("Hata oluştu: " + ex.InnerException.Message , "", _connectionPingModels[2].EndPoint);
             }
-
-
-
         }
 
 
@@ -186,252 +343,280 @@ namespace TransportationConnectionMonitoring
             }
             catch (Exception ex)
             {
-                FileWriter("XML Yükleme Hatası: " + ex.Message, "IP : " + _localIp + "");
+                FileWriter("XML Yükleme Hatası: " + ex.Message, "", "");
                 return null;
             }
         }
 
-        public ConnectionPingModel GetConnectionPingInfo()
-        {
-            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "TransportationConnectionMonitoring.xml");
-            ConnectionPingModel connectionPingModel = new ConnectionPingModel();
+        int i = 0;
 
+        public void FileWriter(string message, string ipAddress, string endPoint)
+        {
+            List<string> fileNames = GetFileNames(ipAddress, endPoint);
             try
             {
-                XmlDocument doc = LoadXmlDocument(filePath);
-                if (doc != null)
+                foreach (var connectionPingModel in _connectionPingModels)
                 {
-                    XmlNode root = doc.DocumentElement;
 
-                    foreach (XmlNode node in root.ChildNodes)
+                    string folderPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, connectionPingModel.FolderPath);
+
+                    if (string.IsNullOrEmpty(ipAddress) && string.IsNullOrEmpty(endPoint))
                     {
-                        if (node.NodeType == XmlNodeType.Element)
+                        WriteLogToServerAsync(folderPath, message);
+                    }
+                }
+                foreach (var fileName in fileNames)
+                {
+
+                    if (!string.IsNullOrEmpty(ipAddress))
+                    {
+                        string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fileName);
+                        using (StreamWriter sw = File.Exists(filePath) ? File.AppendText(filePath) : File.CreateText(filePath))
                         {
-                            string elementName = node.Name;
-                            string elementValue = node.InnerText;
-
-                            switch (elementName)
-                            {
-                                case "ccMail":
-                                    string[] ccMails = elementValue.Split(',');
-                                    connectionPingModel.CCMail.AddRange(ccMails);
-                                    break;
-                                case "toMail":
-                                    connectionPingModel.ToMail = elementValue;
-                                    break;
-                                case "endPoint":
-                                    connectionPingModel.EndPoint = elementValue;
-                                    break;
-                                case "Interval":
-                                    connectionPingModel.Interval = elementValue;
-                                    break;
-                                case "firstProdServer":
-                                    connectionPingModel.FirstProdServer = elementValue;
-                                    break;
-                                case "secondProdServer":
-                                    connectionPingModel.SecondProdServer = elementValue;
-                                    break;
-                                case "folderName":
-                                    connectionPingModel.FolderName = elementValue;
-                                    break;
-                                case "folderPathFirst":
-                                    connectionPingModel.FolderPathFirst = elementValue;
-                                    break;
-                                case "folderPathSecond":
-                                    connectionPingModel.FolderPathSecond = elementValue;
-                                    break;
-                                case "smtpFromMail":
-                                    connectionPingModel.SmtpFromMail = elementValue;
-                                    break;
-                                case "smptPassword":
-                                    connectionPingModel.SmptPassword = elementValue;
-                                    break;
-                                case "smtpAddress":
-                                    connectionPingModel.SmtpAddress = elementValue;
-                                    break;
-                                case "smptPort":
-                                    connectionPingModel.SmptPort = int.Parse(elementValue);
-                                    break;
-                                case "serverInfo":
-                                    connectionPingModel.ServerInfo = elementValue;
-                                    break;
-
-                            }
+                            sw.WriteLine(message);
                         }
                     }
-                }
-            }
-            catch (Exception ex)
-            {
-                FileWriter("Hata Oluştu : " + ex.Message, "");
-                SendEmail("Hata Oluştu : " + ex.Message + " <br>  Süre : " + DateTime.Now.TimeOfDay.ToString(),"");
-            }
 
-            return connectionPingModel;
-        }
-
-        public void FileWriter(string message, string IpAddress)
-        {
-            #region private fields
-            string firstProdServerPath = AppDomain.CurrentDomain.BaseDirectory + _connectionPingModel.FolderPathFirst;
-            string secondProdServerPath = AppDomain.CurrentDomain.BaseDirectory + _connectionPingModel.FolderPathSecond;
-            string filePath = AppDomain.CurrentDomain.BaseDirectory + _connectionPingModel.FolderName;
-            string serverPath = AppDomain.CurrentDomain.BaseDirectory + (_connectionPingModel.FolderPathFirst);
-            #endregion
-
-
-            try
-            {
-
-                if (!string.IsNullOrEmpty(IpAddress) && IpAddress == _connectionPingModel.SecondProdServer)
-                {
-                    serverPath = AppDomain.CurrentDomain.BaseDirectory + (_connectionPingModel.FolderPathSecond);
                 }
 
-                if (!Directory.Exists(_connectionPingModel.FolderName))
+                if (!string.IsNullOrEmpty(endPoint))
                 {
-                    Directory.CreateDirectory(_connectionPingModel.FolderName);
-                }
-                if (!Directory.Exists(_connectionPingModel.FolderPathFirst))
-                {
-                    Directory.CreateDirectory(_connectionPingModel.FolderPathFirst);
-                }
-                if (!Directory.Exists(_connectionPingModel.FolderPathSecond))
-                {
-                    Directory.CreateDirectory(_connectionPingModel.FolderPathSecond);
-                }
-                if (string.IsNullOrEmpty(IpAddress))
-                {
-                    WriteLogToServer(firstProdServerPath, message);
-                    WriteLogToServer(secondProdServerPath, message);
-                }
-                else
-                {
-                    using (StreamWriter sw = File.Exists(serverPath) ? File.AppendText(serverPath) : File.CreateText(serverPath))
+                    string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, _connectionPingModels[2].FolderPath);
+
+                    using (StreamWriter sw = File.Exists(filePath) ? File.AppendText(filePath) : File.CreateText(filePath))
                     {
+
                         sw.WriteLine(message);
+                        i++;
                     }
                 }
-               
             }
             catch (Exception ex)
-             {
-
-                using (StreamWriter sw = File.Exists(serverPath) ? File.AppendText(serverPath) : File.CreateText(serverPath))
+            {
+                for (int i = 0; i < _connectionPingModels.Count; i++)
                 {
-                    sw.WriteLine("Servis Çalışırken Hata Oluştu "+ex.Message+"  Süre : " + DateTime.Now.TimeOfDay.ToString());
-                    SendEmail("Servis Çalışırken Hata Oluştu " + ex.Message + " <br>  Süre : " + DateTime.Now.TimeOfDay.ToString(), IpAddress);
+                    string FilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, _connectionPingModels[i].FolderPath);
+                    WriteLogToServerAsync(FilePath, ex.Message);
                 }
             }
-            
+        }
+
+        public void MoveFileBySize()
+        {
 
 
+            foreach (var connectionPingModel in _connectionPingModels)
+            {
+                string folderPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, connectionPingModel.FolderPath);
+                FileInfo fileInfo = new FileInfo(folderPath);
 
+
+                double megaByte = fileInfo.Length / (1024.0 * 1024.0);
+
+                if (megaByte >= connectionPingModel.FileSize)
+                {
+                    NewCreateAndMoveFile(folderPath, Path.GetFileNameWithoutExtension(connectionPingModel.FolderPath),connectionPingModel.EndPoint);
+                }
+            }
 
 
         }
 
+        public void NewCreateAndMoveFile(string sourceDirectory, string folderPath,string endPoint)
+        {
+            string formatDate = DateTime.Now.ToString("yyyyMMdd");
+            string destinationDirectory = AppDomain.CurrentDomain.BaseDirectory + @"Log\" + folderPath + "" + formatDate;
 
-        private void WriteLogToServer(string serverPath, string message)
+            Directory.CreateDirectory(destinationDirectory);
+
+            try
+            {
+                string fileName = Path.GetFileName(sourceDirectory);
+
+                string destinationPath = Path.Combine(destinationDirectory, fileName);
+
+                File.Move(sourceDirectory, destinationPath);
+                FileWriter("Dosya başarıyla taşındı.", endPoint == null ? _localIp: endPoint, endPoint == null ? "" : endPoint);
+              
+            }
+            catch (Exception ex)
+            {
+                FileWriter("Hata oluştu: " + ex.InnerException.Message + " " , endPoint == null ? _localIp : endPoint, endPoint == null ? "" : endPoint);
+            }
+        }
+
+        private List<string> GetFileNames(string ipAddress, string endPoint)
+        {
+            List<string> fileNames = new List<string>();
+
+
+            if (!String.IsNullOrEmpty(ipAddress))
+            {
+
+                if (ipAddress.EndsWith(_connectionPingModels[0].LogFileNameIpEnd))
+                {
+                    fileNames.Add(_connectionPingModels[0].FolderPath);
+                }
+
+                if (ipAddress.EndsWith(_connectionPingModels[1].LogFileNameIpEnd))
+                {
+                    fileNames.Add(_connectionPingModels[1].FolderPath);
+                }
+            }
+            else
+            {
+                for (int i = 0; i < 2; i++)
+                {
+                    fileNames.Add(_connectionPingModels[i].FolderPath);
+                }
+            }
+
+            return fileNames;
+        }
+
+
+        private async Task WriteLogToServerAsync(string serverPath, string message)
         {
             try
             {
-                if (!Directory.Exists(_connectionPingModel.FolderName))
-                {
-                    Directory.CreateDirectory(_connectionPingModel.FolderName);
-                }
 
                 using (StreamWriter sw = File.Exists(serverPath) ? File.AppendText(serverPath) : File.CreateText(serverPath))
                 {
-                    sw.WriteLine(message);
+                    await sw.WriteLineAsync(message);
                 }
             }
             catch (Exception ex)
             {
-
-                FileWriter("Hata Oluştu : " + ex.Message, "IP : " + _localIp + "");
+                FileWriter("Hata Oluştu : " + ex.Message, "", "");
             }
-            
         }
 
-    
 
-      
-        public string SendEmail(string logMessage,string ipInfo)
+        private void BaseAddress(HttpClient httpClient, string ipAddress)
         {
-            var mail = new MailMessage();
-            mail.To.Add(_connectionPingModel.ToMail);
-            mail.From = new MailAddress(_connectionPingModel.SmtpFromMail);            
-            mail.Subject = "ALERT! " + _serverType + " - " + ipInfo + " Ip Adresindeki Servis Erişiminde Hata";
-            mail.BodyEncoding = Encoding.UTF8;
             try
             {
-
-                if (String.IsNullOrEmpty(ipInfo))
-                {
-                    mail.Body = "<html><body>";
-                    mail.Body += "<h2>Transportation Connection Monitoring</h2>";
-                    mail.Body += "<p> Sorunun Nedeni : <strong>" + logMessage + "</strong> </p>";                   
-                    mail.Body += "<h4>Server : " + _serverType + "</h4>";
-                    mail.IsBodyHtml = true;
-                }
-                else
-                {
-                    if (ipInfo == _connectionPingModel.FirstProdServer)
+                
+              
+                    if (String.IsNullOrEmpty(_connectionPingModels[2].Port.ToString()))
                     {
-                     
-                        mail.Body += "<h2>Transportation Connection Monitoring</h2>";
-                        mail.Body += "<p> Sorunun Nedeni : <strong>" + logMessage + "</strong> </p>";
-                        mail.Body += "<h4> IP Bilgisi : <strong>" + _localIp + "</strong></h4>";
-                        mail.Body += "<h4>Application Pool: <strong>" + _connectionPingModel.FirstProdServer + " </strong></h4>";
-                        mail.Body += "<h4>Server : <strong>" + _serverType + "</strong></h4>";
-                        mail.Body += "</body></html>";
-                        mail.IsBodyHtml = true;
+                        httpClient.BaseAddress = new Uri("http://"+ipAddress+""+ _connectionPingModels[2].ApplicationPoolName + "/");
                     }
                     else
                     {
+                        httpClient.BaseAddress = new Uri("http://"+ipAddress+":"+ _connectionPingModels[2].Port + _connectionPingModels[2].ApplicationPoolName + "/");
+                    }
+               
+               
+            }
+            catch (Exception ex)
+            {
+
+                FileWriter(ex.Message, "",  _connectionPingModels[2].EndPoint);
+            }
+           
+
+
+
+
+
+
+        }
+
+
+        public string SendEmail(string logMessage, string ipInfo, string endPoint)
+        {
+           
+           TimeSpan minimumRequestInterval = TimeSpan.FromMinutes(_connectionPingModels[0].mailWaitTimeMinute);
+
+            lock (lockObject)
+            {
+
+                if ((DateTime.Now - lastRequestTime) < minimumRequestInterval)
+                {
                       
-                        mail.Body += "<h2>Transportation Connection Monitoring</h2>";
+                        return "Mail gönderimi için henüz yeterli süre geçmedi";
+                    
+                }
+                    var mail = new MailMessage();
+                    mail.To.Add(_connectionPingModels[0].ToMail);
+                    mail.From = new MailAddress(_connectionPingModels[0].SmtpFromMail);
+                    mail.Subject = "ALERT! " + _serverType + " - " + _localIp + " Ip Adresindeki Servis Erişiminde Hata";
+                    mail.BodyEncoding = Encoding.UTF8;
+
+                    if (string.IsNullOrEmpty(ipInfo) && string.IsNullOrEmpty(endPoint))
+                    {
+                        mail.Body = "<html><body>";
+                        mail.Body += "<h2>" + _connectionPingModels[0].MailTitle + "</h2>";
                         mail.Body += "<p> Sorunun Nedeni : <strong>" + logMessage + "</strong> </p>";
-                        mail.Body += "<h4>IP Bilgisi : <strong>" + _localIp + "</strong> </h4>";
-                        mail.Body += "<h4>Application Pool : <strong>" + _connectionPingModel.SecondProdServer + "</strong> </h4>";
+                        mail.Body += "<h4>Server : " + _serverType + "</h4>";
+                        mail.IsBodyHtml = true;
+                    }
+                    else if (!string.IsNullOrEmpty(endPoint))
+                    {
+                        mail.Body += "<h2>" + _connectionPingModels[2].MailTitle + "</h2>";
+                        mail.Body += "<p> Sorunun Nedeni : <strong>" + logMessage + "</strong> </p>";
+                        mail.Body += "<h4> IP Bilgisi : <strong>" + _localIp + "</strong></h4>";
+
+
+                        mail.Body += "<h4>Connection EndPoint : <strong>" + _connectionPingModels[2].EndPoint + " </strong></h4>";
+
+
                         mail.Body += "<h4>Server :  <strong>" + _serverType + "</strong> </h4>";
                         mail.Body += "</body></html>";
                         mail.IsBodyHtml = true;
                     }
 
-                 
+                    else if (!String.IsNullOrEmpty(ipInfo))
+                    {
+                        mail.Body += "<h2>" + _connectionPingModels[0].MailTitle + "</h2>";
+                        mail.Body += "<p> Sorunun Nedeni : <strong>" + logMessage + "</strong> </p>";
+                        mail.Body += "<h4> IP Bilgisi : <strong>" + _localIp + "</strong></h4>";
 
-                }
+                        if (ipInfo == _connectionPingModels[0].ProdServer)
+                        {
+                            mail.Body += "<h4>Application Pool: <strong>" + _connectionPingModels[0].ProdServer + " </strong></h4>";
+                        }
+                        else
+                        {
+                            mail.Body += "<h4>Application Pool: <strong>" + _connectionPingModels[1].ProdServer + " </strong></h4>";
 
+                        }
 
+                        mail.Body += "<h4>Server :  <strong>" + _serverType + "</strong> </h4>";
+                        mail.Body += "</body></html>";
+                        mail.IsBodyHtml = true;
+                    }
 
-
-                foreach (var item in _connectionPingModel.CCMail)
+                    foreach (var item in _connectionPingModels[0].CCMail)
+                    {
+                        mail.CC.Add(new MailAddress(item));
+                    }
+                try
                 {
-                    mail.CC.Add(new MailAddress(item));
-                }
+                    using (SmtpClient client = new SmtpClient())
+                    {
+                        FileWriter("Mail Gonderildi", "", "");
+                        client.EnableSsl = true;
+                        client.UseDefaultCredentials = false;
+                        client.Credentials = new NetworkCredential(_connectionPingModels[0].SmtpFromMail, _connectionPingModels[0].SmptPassword);
+                        client.Host = "smtp.gmail.com";
+                        client.Port = _connectionPingModels[0].SmptPort;
+                        client.DeliveryMethod = SmtpDeliveryMethod.Network;
+                        //client.Send(mail);
+                    }
+                    lastRequestTime = DateTime.Now;
 
-                using (SmtpClient client = new SmtpClient())
+                }
+                catch (Exception ex)
                 {
-                    client.EnableSsl = true;
-                    client.UseDefaultCredentials = false;
-                    client.Credentials = new NetworkCredential(_connectionPingModel.SmtpFromMail, _connectionPingModel.SmptPassword);
-                    client.Host = "smtp.gmail.com";
-                    client.Port = 587;
-                    client.DeliveryMethod = SmtpDeliveryMethod.Network;
-                    client.Send(mail);
+
+                    FileWriter(ex.Message, ipInfo == null?"": ipInfo, endPoint == null ? "" : endPoint);
                 }
+                  
+                
             }
-            catch (Exception ex)
-            {
-
-                FileWriter(ex.Message, "IP : " + _localIp + "");
-
-            }
-
             return string.Empty;
-
 
 
 

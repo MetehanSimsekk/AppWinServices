@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<roots>
+	<mail>
+		<smtpFromMail>gateway@apptech.co</smtpFromMail>
+		<smptPassword>rbwdjwwgxquddzuw</smptPassword>
+		<smtpAddress>smtp.gmail.com</smtpAddress>
+		<smptPort>587</smptPort>
+		<toMail>mahmutb@apptech.co</toMail>
+		<ccMail>metehans@apptech.co</ccMail>
+	</mail>
+	<timeInfo>
+		<Interval>10000</Interval>
+		<fileSize>10</fileSize>
+		<mailWaitTimeMinute>10</mailWaitTimeMinute>
+	</timeInfo>
+	<root>
+		<mailTitle>Transportation Connection Monitoring</mailTitle>	
+		<prodServer>http://192.168.100.101</prodServer>
+		<logFileNameIpEnd>101</logFileNameIpEnd>
+		<folderPath>Log\TransportationConnectionManitoringDetailLogFirstProdServer.txt</folderPath>
+	</root>
+	<root>
+		<mailTitle>Transportation Connection Monitoring</mailTitle>		
+		<prodServer>http://192.168.100.102</prodServer>
+		<logFileNameIpEnd>102</logFileNameIpEnd>
+		<folderPath>Log\TransportationConnectionManitoringDetailLogSecondProdServer.txt</folderPath>
+	</root>
+	<root>				
+		<mailTitle>Ping Connection Manitoring</mailTitle>
+		<endPoint>api/Ping/ConnectionPing</endPoint>		
+		<port></port>
+		<applicationPoolName>/Transportation</applicationPoolName>
+		<folderPath>Log\ConnectionPingManitoringLog.txt</folderPath>
+	</root>
+	<root>
+		<bkm>			
+			<endPoint>api/txn/BinManagement/BinManagement</endPoint>	
+			<folderPath>/Logs</folderPath>
+			<folderName>/Logs/BinRequestServiceLog.txt</folderName>
+			<port>44341</port>
+			<serverInfo>Test</serverInfo>
+		</bkm>
+	</root>
+</roots>

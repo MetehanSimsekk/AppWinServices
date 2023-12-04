@@ -1,411 +1,390 @@
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/28/2023 3:25:03 PM
 Servis Çalışmaya Devam Ediyor: Süre:15:25:13.3750339
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:25:13 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:25:23.3361974
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:25:23 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:25:33.3518737
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:25:33 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:25:43.3556336
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:25:43 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:25:53.3586361
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:25:53 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:26:03.3667222
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:26:03 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:26:13.3675311
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:26:13 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:26:23.3778943
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:26:23 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:26:33.3925607
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:26:33 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:26:43.4032667
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:26:43 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:26:53.4181101
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:26:53 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:27:03.4283939
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:27:03 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:27:13.4440467
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:27:13 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:27:23.4561866
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:27:23 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:27:33.4693668
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:27:33 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:27:43.4827024
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:27:43 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:27:53.4847229
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:27:53 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:28:03.4954748
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:28:03 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:28:13.5046850
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:28:13 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:28:23.5090643
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:28:23 PM
+Hata oluştu: Unable to connect to the remote server
 Specified argument was out of the range of valid values.
 Parameter name: value
 Servis Çalışmaya Devam Ediyor: Süre:15:28:33.5212641
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:28:33 PM
+Hata oluştu: Unable to connect to the remote server
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/28/2023 3:37:06 PM
 Servis Çalışmaya Devam Ediyor: Süre:15:37:16.3325845
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:37:16 PM
+Hata oluştu: Unable to connect to the remote server
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/28/2023 3:42:01 PM
 Servis Çalışmaya Devam Ediyor: Süre:15:42:11.8504747
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 3:42:12 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:15:43:10.6821556
 Servis Çalışmaya Devam Ediyor: Süre:15:43:10.6821556
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/28/2023 4:05:23 PM
 Servis Çalışmaya Devam Ediyor: Süre:16:05:33.7634458
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:05:34 PM
+Hata oluştu: Unable to connect to the remote server
 Servis Çalışmaya Devam Ediyor: Süre:16:05:54.6804772
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:05:58 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:07:09.2945557
 Hata Oluştu : The process cannot access the file 'C:\Users\smskm\Documents\GitHub\AppWinServices\AppWinServices\AppWinServices\ConnectPingService\ConnectPingService\bin\Debug\Log\TransportationConnectionManitoringDetailLogFirstProdServer.txt' because it is being used by another process.
 Servis Çalışmaya Devam Ediyor: Süre:16:07:09.2945557
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:07:09 PM
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:07:09 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:07:19.6721882
 The process cannot access the file 'C:\Users\smskm\Documents\GitHub\AppWinServices\AppWinServices\AppWinServices\ConnectPingService\ConnectPingService\bin\Debug\Log\ConnectionPingManitoringLog.txt' because it is being used by another process.
 Mail gönderimi için henüz yeterli süre geçmedi
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:07:24 PM
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/28/2023 4:07:43 PM
 Servis Çalışmaya Devam Ediyor: Süre:16:07:53.8765978
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:07:54 PM
+Hata oluştu: Unable to connect to the remote server
 Servis Çalışmaya Devam Ediyor: Süre:16:08:03.8664716
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:08:04 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:08:13.8811777
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:08:14 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:08:23.8943540
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:08:24 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:08:33.9002029
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:08:34 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/28/2023 4:10:30 PM
 Servis Çalışmaya Devam Ediyor: Süre:16:11:00.2168986
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:11:00 PM
+Hata oluştu: Unable to connect to the remote server
 Mail Gönderimi süresi *************** :  11/28/2023 4:11:04 PM
 Servis Çalışmaya Devam Ediyor: Süre:16:11:30.2075147
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:11:30 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:12:00.2178380
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:12:00 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:12:30.2318330
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:12:30 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:13:00.2357601
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:13:00 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:13:30.2431714
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:13:30 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:14:00.2466309
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:14:00 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:14:30.2526570
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:14:30 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:15:00.2625390
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:15:00 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:15:33.3416018
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:15:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:16:03.3456519
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:16:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail Gönderimi süresi *************** :  11/28/2023 4:16:07 PM
 Servis Çalışmaya Devam Ediyor: Süre:16:16:33.3496426
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:16:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:17:03.3535322
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:17:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:17:33.3592592
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:17:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:18:03.3633499
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:18:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:18:33.3696008
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:18:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:19:03.3734002
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:19:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:19:33.3800305
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:19:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:20:03.3841775
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:20:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:20:33.3978894
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:20:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:21:03.4023371
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:21:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail Gönderimi süresi *************** :  11/28/2023 4:21:07 PM
 Servis Çalışmaya Devam Ediyor: Süre:16:21:33.4090727
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:21:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:22:03.4131510
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:22:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:22:33.4180537
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:22:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:23:03.4218024
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:23:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:23:33.4291691
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:23:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:24:03.4326759
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:24:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:24:33.4360543
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:24:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:25:03.4404302
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:25:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:25:33.4560140
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:25:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:26:03.4599769
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:26:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail Gönderimi süresi *************** :  11/28/2023 4:26:07 PM
 Servis Çalışmaya Devam Ediyor: Süre:16:26:33.4670460
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:26:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:27:03.4720683
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:27:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:27:33.4881144
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:27:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:28:03.4916177
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:28:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:28:33.5041790
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:28:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:29:03.5093955
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:29:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:29:33.5160464
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:29:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:30:03.5198744
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:30:03 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:16:30:33.5243841
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 4:30:33 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/28/2023 5:43:25 PM
 Servis Çalışmaya Devam Ediyor: Süre:17:43:55.7332595
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 5:43:56 PM
+Hata oluştu: Unable to connect to the remote server
 Servis Çalışmaya Devam Ediyor: Süre:17:45:14.1172692
 Hata Oluştu : The process cannot access the file 'C:\Users\smskm\Documents\GitHub\AppWinServices\AppWinServices\AppWinServices\ConnectPingService\ConnectPingService\bin\Debug\Log\TransportationConnectionManitoringDetailLogFirstProdServer.txt' because it is being used by another process.
 Servis Çalışmaya Devam Ediyor: Süre:17:45:14.1172692
 Mail Gönderimi süresi *************** :  11/28/2023 5:45:14 PM
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 5:45:14 PM
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 5:45:14 PM
+Hata oluştu: Unable to connect to the remote server
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/28/2023 5:46:28 PM
 Servis Çalışmaya Devam Ediyor: Süre:17:46:58.6070445
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 5:46:58 PM
+Hata oluştu: Unable to connect to the remote server
 Mail Gönderimi süresi *************** :  11/28/2023 5:47:10 PM
 Servis Çalışmaya Devam Ediyor: Süre:17:47:28.6037540
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 5:47:28 PM
+Hata oluştu: Unable to connect to the remote server
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/28/2023 5:49:31 PM
 Servis Çalışmaya Devam Ediyor: Süre:17:50:01.4477326
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 5:50:01 PM
+Hata oluştu: Unable to connect to the remote server
 Mail Gönderimi süresi *************** :  11/28/2023 5:50:05 PM
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/28/2023 5:50:32 PM
 Servis Çalışmaya Devam Ediyor: Süre:17:51:02.0496134
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 5:51:02 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:17:51:32.0440863
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 5:51:32 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:17:52:02.0577782
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 5:52:02 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:17:52:32.0683744
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 5:52:32 PM
+Hata oluştu: Unable to connect to the remote server
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/28/2023 5:53:23 PM
 Servis Çalışmaya Devam Ediyor: Süre:17:53:53.4440881
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 5:53:53 PM
+Hata oluştu: Unable to connect to the remote server
 Servis Çalışmaya Devam Ediyor: Süre:18:27:01.1839741
 Servis Çalışmaya Devam Ediyor: Süre:18:27:01.2152274
 A task was canceled.
 Mail Gönderimi süresi *************** :  11/28/2023 6:27:04 PM
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:27:04 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:27:31.2179791
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:27:31 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:28:01.2214446
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:28:01 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:28:31.2371948
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:28:31 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:29:01.2506937
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:29:01 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:29:31.2561859
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:29:31 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:30:01.2602732
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:30:01 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:30:31.2728649
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:30:31 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:31:01.2768907
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:31:01 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:31:31.2870635
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:31:31 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:32:01.2935351
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:32:01 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:32:31.2990933
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:32:31 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:33:01.3031487
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:33:01 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:33:31.3094868
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:33:31 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:34:01.3201671
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:34:01 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:34:31.3369284
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:34:31 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:35:01.3438911
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:35:01 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:35:31.3447731
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:35:31 PM
+Hata oluştu: Unable to connect to the remote server
 Mail gönderimi için henüz yeterli süre geçmedi
 Servis Çalışmaya Devam Ediyor: Süre:18:36:01.3611122
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/28/2023 6:36:01 PM
+Hata oluştu: Unable to connect to the remote server
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/29/2023 1:17:28 AM
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/29/2023 1:18:10 AM
 Servis Çalışmaya Devam Ediyor: Süre:01:18:20.3291050
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:18:20 AM
 Servis Çalışmaya Devam Ediyor: Süre:01:18:33.3497196
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/29/2023 1:18:48 AM
 Servis Çalışmaya Devam Ediyor: Süre:01:18:58.8471226
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:18:59 AM
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/29/2023 1:19:57 AM
 Servis Çalışmaya Devam Ediyor: Süre:01:20:07.4104236
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:20:07 AM
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/29/2023 1:27:45 AM
 Servis Çalışmaya Devam Ediyor: Süre:01:27:55.0695819
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:27:55 AM
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/29/2023 1:28:18 AM
 Servis Çalışmaya Devam Ediyor: Süre:01:28:28.4205653
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:28:28 AM
 Servis Çalışmaya Devam Ediyor: Süre:01:28:38.5154405
 Servis Çalışmaya Devam Ediyor: Süre:01:28:50.1021921
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:28:53 AM
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:28:54 AM
+HTTP Base Adres Info : http://192.168.100.100/:80/
 Servis Çalışmaya Devam Ediyor: Süre:01:29:02.7286986
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/29/2023 1:29:23 AM
 Servis Çalışmaya Devam Ediyor: Süre:01:29:33.3783128
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:29:33 AM
+HTTP Base Adres Info : http://192.168.100.100/
+İstek başarısız. Hata kodu: NotFound 01:35:06.0527059
 Servis Çalışmaya Devam Ediyor: Süre:01:35:06.0546964
-Hata Oluştu : Input string was not in a correct format.
-Hata Oluştu : Input string was not in a correct format.
-Mail Gonderildi
-Local IP Adres Bilgisi : 192.168.1.105
-Servis Çalışmaya Başladı. Tarih: 11/29/2023 1:35:23 AM
-Servis Çalışmaya Devam Ediyor: Süre:01:35:33.6961814
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:35:33 AM
-Hata Oluştu : Input string was not in a correct format.
-Mail Gonderildi
-Local IP Adres Bilgisi : 192.168.1.105
-Servis Çalışmaya Başladı. Tarih: 11/29/2023 1:36:40 AM
-Servis Çalışmaya Devam Ediyor: Süre:01:36:51.0102088
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:36:51 AM
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/29/2023 1:38:26 AM
 Servis Çalışmaya Devam Ediyor: Süre:01:38:36.5986976
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:38:36 AM
 Servis Çalışmaya Devam Ediyor: Süre:01:38:46.6044324
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:38:50 AM
+HTTP Base Adres Info : http://192.168.1.105/Transportation/
+HTTP Base Adres Info : http://192.168.1.105/Transportation/
 Servis Çalışmaya Devam Ediyor: Süre:01:38:58.4945182
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:39:07 AM
 Servis Çalışmaya Devam Ediyor: Süre:01:39:07.6561479
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:39:11 AM
+Hata oluştu: Unable to connect to the remote server
+Hata oluştu: Unable to connect to the remote server
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/29/2023 1:39:48 AM
 Servis Çalışmaya Devam Ediyor: Süre:01:39:58.9278475
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 1:39:59 AM
+HTTP Base Adres Info : http://192.168.100.100/Transportation/
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/29/2023 11:46:51 AM
 Local IP Adres Bilgisi : 192.168.1.105
@@ -415,4 +394,3 @@ Servis Çalışmaya Devam Ediyor: Süre:12:02:38.5401459
 Local IP Adres Bilgisi : 192.168.1.105
 Servis Çalışmaya Başladı. Tarih: 11/29/2023 12:03:16 PM
 Servis Çalışmaya Devam Ediyor: Süre:12:03:26.3901695
-Uygulama havuzu çalışıyor. IP Bilgisi: http://192.168.100.102 Süre: 11/29/2023 12:03:26 PM

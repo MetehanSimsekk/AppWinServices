@@ -17,21 +17,22 @@ namespace TransportationConnectionMonitoring.ConnectionPingInfoModel
         public string EndPoint { get; set; }
         public string Interval { get; set; }
 
-        public string FirstProdServer { get; set; }
+        public string ProdServer { get; set; }
 
-        public string SecondProdServer { get; set; }
-        public string FolderName { get; set; }
-        public string FolderPathFirst { get; set; }
-        public string FolderPathSecond { get; set; }
+        public string Port { get; set; }
 
-
-
+        public int FileSize { get; set; }
+        public string MailTitle { get; set; }
+        public string FolderPath { get; set; }
+        public int mailWaitTimeMinute { get; set; }
+        public string LogFileNameIpEnd { get; set; }
+        //public string Protocol { get; set; }
+        public string ApplicationPoolName { get; set; }
         public string SmtpFromMail { get; set; }
         public string SmptPassword { get; set; }
         public string SmtpAddress { get; set; }
         public int SmptPort { get; set; }
 
-        public string ServerInfo { get; set; }
 
 
 
